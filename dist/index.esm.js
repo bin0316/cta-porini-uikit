@@ -2179,13 +2179,13 @@ var Logo = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href;
     var isAbsoluteUrl = href.startsWith("http");
     (React.createElement(React.Fragment, null,
-        React.createElement(Text, { fontSize: "23px" }, " CrossTheAge "),
+        React.createElement(Text, { fontSize: "23px" }, " Porini Exchange "),
         React.createElement(Logo$2, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$l, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$m, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "CrossTheAge" },
-            React.createElement(Text, { fontSize: "23px" }, " CrossTheAge "))) : (React.createElement(StyledLink, { to: href, "aria-label": "CrossTheAge" },
-            React.createElement(Text, { fontSize: "23px" }, " CrossTheAge ")))));
+        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Porini Exchange" },
+            React.createElement(Text, { fontSize: "23px" }, " Porini Exchange "))) : (React.createElement(StyledLink, { to: href, "aria-label": "Porini Exchange" },
+            React.createElement(Text, { fontSize: "23px" }, " Porini Exchange ")))));
 };
 var Logo$1 = React.memo(Logo, function (prev, next) { return prev.isPushed === next.isPushed && prev.isDark === next.isDark; });
 var templateObject_1$b;
